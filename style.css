@@ -1,0 +1,76 @@
+body{
+    font-family: 'Inconsolata', monospace;
+    background-image: url("pyra.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-position: right top;
+    overflow: hidden;
+}
+.center {
+    margin: 40px;
+    background: #a3a19961;
+}
+.text{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    background-color: #eb4034;
+    color: white;
+    padding: 10px;
+    z-index: 9;
+}
+.foot{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    background-color: #eb4034;
+    color: white;
+    padding: 10px;
+    z-index: 10;
+}
+.txt{
+    padding: 3px 80px 3px 3px;
+}
+.sub{
+    margin-top: 5px;
+    padding: 5px 38px;
+}
+.clr{
+    padding: 5px 43px;
+}
+form{
+    position: relative;
+    max-width: 310px;
+    left: 7%;
+    margin-bottom:50px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 3;
+}
+p{
+    position: relative;
+    max-width: 310px;
+    left: 7%;
+    background-color: white;
+    padding: 20px 10px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+* {
+  box-sizing: border-box;
+}
+
+.box1 {
+  float: left;
+  width: 25%;
+  padding: 30px 10px 30px 10px;
+}
+.box2 {
+  float: left;
+  width: 75%;
+  padding: 30px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
